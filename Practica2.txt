@@ -1,0 +1,14 @@
+namespace practica2  {
+		class Program	{
+		
+			 static void Main(string[] args)		{
+				
+				Console.WriteLine("Escribe el primer precio");
+				double product1 = double.Parse(Console.ReadLine());
+				Console.WriteLine("Escribe el primer precio");
+				double product2 = double.Parse(Console.ReadLine());
+				Console.WriteLine("Escribe el primer precio");
+				double product3 = double.Parse(Console.ReadLine());
+			}
+	}
+}
