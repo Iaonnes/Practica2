@@ -9,6 +9,23 @@ namespace practica2  {
 				double product2 = double.Parse(Console.ReadLine());
 				Console.WriteLine("Escribe el primer precio");
 				double product3 = double.Parse(Console.ReadLine());
+
+				double iva = product1 * .16;
+				double suma = product1 + iva;
+				double iva1 = product2 * .16;
+				double suma1 = product2 + iva1;
+				double iva2 = product3 * .16;
+				double suma2 = product3 + iva2;
+			
+				Console.WriteLine("\nEl  iva es"+ iva);
+				Console.WriteLine("precio con iva es: "+ suma);
+				Console.WriteLine("\nEl  iva es: "+ iva1);
+				Console.WriteLine("precio con iva es: "+ suma1);
+				Console.WriteLine("\nEl  iva es: "+ iva2);
+				Console.WriteLine("precio con iva es:  "+ suma2);
+			
+				Console.WriteLine("\n\nPresiona una tecla para continuar. . . ");
+				Console.ReadKey(true);
 			}
 	}
 }
